@@ -13,7 +13,7 @@ import {
   Text,
   View,
 } from 'react-native';
-
+ 
 var REQUEST_URL = 'https://raw.githubusercontent.com/facebook/react-native/master/docs/MoviesExample.json';
 
 class MovieListProject extends Component {
@@ -95,7 +95,7 @@ var styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontSize: 20,
+    fontSize: 10,
     marginBottom: 8,
     textAlign: 'center',
   },
